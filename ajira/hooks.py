@@ -242,3 +242,16 @@ app_license = "agpl-3.0"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Hook to execute after app installation
+
+
+
+
+# Installation
+after_install = "ajira.install.after_install"
+
+# Uninstallation
+before_uninstall = "ajira.uninstall.before_uninstall"
+
+
+
