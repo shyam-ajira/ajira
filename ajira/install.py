@@ -9,7 +9,7 @@ def after_install():
     try:
         # Call your existing add_custom_fields function
         custom_fields=add_custom_fields()
-        frappe.log(f"Debug: add_custom_fields() returned: {custom_fields}")
+        print(f"shyam--Debug: add_custom_fields() returned: {custom_fields}")
         if custom_fields:
             frappe.msgprint(f"Custom fields created during app installation: {custom_fields}")
             frappe.log(f"Custom fields created during app installation: {custom_fields}")
